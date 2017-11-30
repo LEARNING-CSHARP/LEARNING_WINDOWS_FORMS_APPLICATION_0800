@@ -22,7 +22,7 @@
 		{
 			BackColor =
 				System.Drawing.Color.FromArgb
-				(redHScrollBar.Value, greenHScrollBar.Value, blueHScrollBar.Value);
+				(red: redHScrollBar.Value, green: greenHScrollBar.Value, blue: blueHScrollBar.Value);
 		}
 	}
 }
