@@ -24,6 +24,10 @@
 
 		private void HScrollBar_Scroll(object sender, System.Windows.Forms.ScrollEventArgs e)
 		{
+			//BackColor =
+			//	System.Drawing.Color.FromArgb
+			//	(redHScrollBar.Value, greenHScrollBar.Value, blueHScrollBar.Value);
+
 			BackColor =
 				System.Drawing.Color.FromArgb
 				(red: redHScrollBar.Value, green: greenHScrollBar.Value, blue: blueHScrollBar.Value);

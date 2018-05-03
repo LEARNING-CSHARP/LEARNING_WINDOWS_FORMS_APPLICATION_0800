@@ -66,8 +66,26 @@ FF
 
 -----------------------------
 
-System Colors
+Custom		Colors
+Web			Colors
+System		Colors
 
-
+-----------------------------
 
 Steady State
+
+-----------------------------
+
+Circle myCircle = new Circle();
+
+myCircle.Draw(10, 20, 30, 5);
+
+myCircle.Draw(x: 10, y: 20, radius: 30, width: 5); // OK
+
+myCircle.Draw(radius: 30, x: 10, width: 5, y: 20); // OK
+
+myCircle.Draw(10, 20, radius: 30, width: 5); // OK
+
+myCircle.Draw(10, 20, width: 5, radius: 30); // OK
+
+myCircle.Draw(10, 20, radius: 30, 5); // Error!
