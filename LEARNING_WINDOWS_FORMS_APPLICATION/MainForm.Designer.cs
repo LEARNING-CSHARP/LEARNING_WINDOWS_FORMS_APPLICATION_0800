@@ -84,6 +84,5 @@
 		private System.Windows.Forms.HScrollBar redHScrollBar;
 		private System.Windows.Forms.HScrollBar greenHScrollBar;
 		private System.Windows.Forms.HScrollBar blueHScrollBar;
-
 	}
 }
