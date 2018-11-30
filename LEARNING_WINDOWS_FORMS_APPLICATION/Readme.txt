@@ -86,6 +86,6 @@ myCircle.Draw(radius: 30, x: 10, width: 5, y: 20); // OK
 
 myCircle.Draw(10, 20, radius: 30, width: 5); // OK
 
-myCircle.Draw(10, 20, width: 5, radius: 30); // OK
-
 myCircle.Draw(10, 20, radius: 30, 5); // Error!
+
+myCircle.Draw(10, 20, width: 5, radius: 30); // OK
